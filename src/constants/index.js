@@ -56,13 +56,13 @@ const services = [
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "WordPress Developer",
     icon: backend,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
+  {
+    title: "DevOps Engineer",
+    icon: mobile,
+  },
 ];
 
 const technologies = [
@@ -115,7 +115,24 @@ const technologies = [
     icon: docker,
   },
 ];
-
+const technologiesMobile = [
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Material UI",
+    icon: mui,
+  },
+];
 const experiences = [
   {
     title: "Freelance Software Engineer",
@@ -253,4 +270,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  technologiesMobile,
+  experiences,
+  testimonials,
+  projects,
+};

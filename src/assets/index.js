@@ -14,10 +14,13 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import postgresql from "./tech/postgresql.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import mui from "./tech/mui.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
@@ -25,10 +28,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sevenweb from "./company/7web.png";
+import sfeir from "./company/sfeir.jpeg";
+import selligent from "./company/selligent.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import wedlive from "./wedlive.png";
+import wedlivefront from "./wedlivefront.png";
+import bizkiz from "./bizkiz.png";
+import lv from "./lv.jpeg";
 
 export {
   logo,
@@ -46,17 +56,27 @@ export {
   html,
   javascript,
   mongodb,
+  postgresql,
   nodejs,
   reactjs,
+  nextjs,
   redux,
   tailwind,
+  mui,
   typescript,
   threejs,
   meta,
   shopify,
   starbucks,
   tesla,
+  sevenweb,
+  sfeir,
+  selligent,
   carrent,
   jobit,
   tripguide,
+  wedlive,
+  wedlivefront,
+  bizkiz,
+  lv,
 };

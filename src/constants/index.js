@@ -120,10 +120,10 @@ const experiences = [
   {
     title: "Freelance Software Engineer",
     company_name: "7web Consulting",
+    company_website: "https://www.7webconsulting.com",
     icon: sevenweb,
-    //black
     iconBg: "#000000",
-    date: "July 2020 - Present",
+    date: "July 2023 - Present",
     points: [
       "Building and maintaining websites for small businesses and startups",
       "Optimizing websites for speed and search engine optimization",
@@ -134,6 +134,7 @@ const experiences = [
     title: "Full Stack Developer",
     company_name: "Sfeir",
     icon: sfeir,
+    company_website: "https://www.sfeir.com",
     iconBg: "#000000",
     date: "September 2020 - August 2023",
     points: [
@@ -146,6 +147,7 @@ const experiences = [
   {
     title: "Technical Project Manager",
     company_name: "Selligent",
+    company_website: "https://www.selligent.com",
     icon: selligent,
     iconBg: "#000000",
     date: "September 2019 - August 2020",
@@ -207,7 +209,7 @@ const projects = [
     project_link: "https://wedlive.steven-san.com",
   },
   {
-    name: "Bizkiz",
+    name: "Business Cases",
     description:
       "Tool to centralize business cases and be able to share them easily with clients",
     tags: [
@@ -245,6 +247,8 @@ const projects = [
       },
     ],
     image: lv,
+    project_link:
+      "https://eu.louisvuitton.com/eng-e1/products/tambour-horizon-light-up-connected-watch-nvprod3420006v/QBB187",
     // source_code_link: "https://github.com/",
   },
 ];

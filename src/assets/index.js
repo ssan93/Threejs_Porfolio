@@ -4,6 +4,8 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedin from "./linkedin.png";
+import mail from "./mail.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -48,6 +50,8 @@ export {
   mobile,
   web,
   github,
+  linkedin,
+  mail,
   menu,
   close,
   css,

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { sevenweb, menu, close } from "../assets";
+import { sevenweb, menu, close, github, linkedin, mail } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -65,6 +65,43 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li
+            className="
+            flex 
+            gap-4
+            items-center
+          "
+          >
+            <a
+              href="https://github.com/ssan93"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={github}
+                alt="github"
+                className="w-6 h-6 object-contain"
+              />
+            </a>
+            <a
+              href="https://linkedin.com/in/steven-san7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={linkedin}
+                alt="linkedin"
+                className="w-5 h-5 object-contain"
+              />
+            </a>
+            <a
+              href="mailto:san.steven97@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={mail} alt="mail" className="w-5 h-5 object-contain" />
+            </a>
+          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -95,6 +132,47 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li
+                className="
+                flex 
+                gap-4
+                items-center
+              "
+              >
+                <a
+                  href="https://github.com/ssan93"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={github}
+                    alt="github"
+                    className="w-6 h-6 object-contain"
+                  />
+                </a>
+                <a
+                  href="https://linkedin.com/in/steven-san7"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={linkedin}
+                    alt="linkedin"
+                    className="w-5 h-5 object-contain"
+                  />
+                </a>
+                <a
+                  href="mailto:san.steven97@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={mail}
+                    alt="mail"
+                    className="w-5 h-5 object-contain"
+                  />
+                </a>
+              </li>
             </ul>
           </div>
         </div>

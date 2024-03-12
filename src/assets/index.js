@@ -39,6 +39,7 @@ import wedlive from "./wedlive.png";
 import wedlivefront from "./wedlivefront.png";
 import bizkiz from "./bizkiz.png";
 import lv from "./lv.jpeg";
+import loader from "./loader.gif";
 
 export {
   logo,
@@ -79,4 +80,5 @@ export {
   wedlivefront,
   bizkiz,
   lv,
+  loader,
 };

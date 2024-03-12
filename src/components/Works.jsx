@@ -95,10 +95,21 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 justify-center lg:justify-start">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+      </div>
+      <div className="mt-10 flex lg:block items-center justify-center">
+        <button
+          onClick={() =>
+            window.open("https://www.github.steven-san.com#projects", "_blank")
+          }
+          className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mx-auto
+           sm:align-self-center"
+        >
+          {"View More Projects"}
+        </button>
       </div>
     </>
   );

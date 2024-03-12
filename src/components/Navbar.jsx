@@ -45,7 +45,7 @@ const Navbar = () => {
           <img
             src={sevenweb}
             alt="logo"
-            className="w-9 h-9 object-contain bg-black rounded-full border-2"
+            className="w-9 h-9 object-fit bg-black rounded-full border-2 p-1 overflow-visible"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Steven San&nbsp;

@@ -1,8 +1,5 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
-import { github, linkedin, mail, profilepic } from "../assets";
+import { github, linkedin, twitter, mail, profilepic } from "../assets";
 
 const Hero = () => {
   return (
@@ -10,8 +7,8 @@ const Hero = () => {
       <div
         className={`absolute inset-0 bottom-[50px] items-center max-w-7xl mx-auto ${styles.paddingX} flex flex-row justify-between`}
       >
-        <div className="flex gap-5">
-          <div className="flex flex-col justify-center items-center mt-5">
+        <div className="flex gap-5 ">
+          <div className="flex flex-col items-center mt-5">
             <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
             <div className="w-1 sm:h-80 h-40 violet-gradient" />
           </div>
@@ -22,14 +19,17 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 mb-6 text-white-100`}>
               Full Stack Software Engineer
-              <br className="sm:block hidden" />
-              <span className="text-xl">📍 Seoul, South Korea</span>
+              <br />
+              <span className={`${styles.heroSubSubText}`}>
+                📍 Seoul, South Korea
+              </span>
               {/* I develop user interfaces{" "}
             and web applications */}
             </p>
             <li
               className="
             flex 
+            flex-wrap
             gap-4
             items-center
           "
@@ -39,34 +39,62 @@ const Hero = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  src={github}
-                  alt="github"
-                  className="w-9 h-9 object-contain"
-                />
+                <button className="bg-tertiary py-2 px-3 rounded-xl outline-none w-fit text-white shadow-md shadow-primary flex items-center gap-2">
+                  <img
+                    src={github}
+                    alt="github"
+                    className="w-98 h-8 object-contain"
+                  />
+                  Github
+                </button>
               </a>
               <a
                 href="https://linkedin.com/in/steven-san7"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  src={linkedin}
-                  alt="linkedin"
-                  className="w-8 h-8 object-contain"
-                />
+                <button className="bg-tertiary py-2 px-3 rounded-xl outline-none w-fit text-white shadow-md shadow-primary flex items-center gap-2">
+                  <img
+                    src={linkedin}
+                    alt="linkedin"
+                    className="w-7 h-7 object-contain"
+                  />
+                  Linkedin
+                </button>
+              </a>
+
+              <a
+                href="https://x.com/crunchitaip"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-tertiary py-2 px-3 rounded-xl outline-none w-fit text-white shadow-md shadow-primary flex items-center gap-2">
+                  <img
+                    src={twitter}
+                    alt="twitter"
+                    className="w-7 h-7 object-contain"
+                  />
+                  Twitter
+                </button>
               </a>
               <a
                 href="mailto:san.steven97@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={mail} alt="mail" className="w-8 h-8 object-contain" />
+                <button className="bg-tertiary py-2 px-3 rounded-xl outline-none w-fit text-white shadow-md shadow-primary flex items-center gap-2">
+                  <img
+                    src={mail}
+                    alt="mail"
+                    className="w-7 h-7 object-contain"
+                  />
+                  Mail
+                </button>
               </a>
             </li>
           </div>
         </div>
-        <div className="w-[250px] h-[250px]">
+        <div className="w-[250px] h-[250px] sm:block hidden">
           <img
             src={profilepic}
             alt="profile-pic"

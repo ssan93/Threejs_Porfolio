@@ -31,6 +31,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import sevenweb from "./company/7web.png";
+import luxolis from "./company/luxolis.png";
 import sfeir from "./company/sfeir.jpeg";
 import selligent from "./company/selligent.jpeg";
 
@@ -42,6 +43,7 @@ import wedlivefront from "./wedlivefront.png";
 import bizkiz from "./bizkiz.png";
 import lv from "./lv.jpeg";
 import loader from "./loader.gif";
+import profilepic from "./pic.jpg";
 
 export {
   logo,
@@ -75,6 +77,7 @@ export {
   starbucks,
   tesla,
   sevenweb,
+  luxolis,
   sfeir,
   selligent,
   carrent,
@@ -85,4 +88,5 @@ export {
   bizkiz,
   lv,
   loader,
+  profilepic,
 };

@@ -33,6 +33,7 @@ import {
   bizkiz,
   lv,
   wedlivefront,
+  luxolis,
 } from "../assets";
 
 export const navLinks = [
@@ -52,32 +53,32 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend",
     icon: web,
   },
   {
-    title: "WordPress Developer",
+    title: "Backend",
     icon: backend,
   },
   {
-    title: "DevOps Engineer",
+    title: "Devops",
     icon: mobile,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "TypeScript",
     icon: typescript,
@@ -90,30 +91,34 @@ const technologies = [
     name: "Next JS",
     icon: nextjs,
   },
-  {
-    name: "Material UI",
-    icon: mui,
-  },
+  // {
+  //   name: "Material UI",
+  //   icon: mui,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "PostgreSQL",
     icon: postgresql,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 const technologiesMobile = [
   {
@@ -145,6 +150,19 @@ const experiences = [
       "Building and maintaining websites for small businesses and startups",
       "Optimizing websites for speed and search engine optimization",
       "Commercialization of a web application for live usage in weddings",
+    ],
+  },
+  {
+    title: "Full Stack Engineer",
+    company_name: "Luxolis",
+    icon: luxolis,
+    company_website: "https://luxolis.ai/",
+    iconBg: "#000000",
+    date: "April 2024 - May 2024",
+    points: [
+      "Integrated video capture and scene scan functionalities into the 3D Scan App",
+      "Optimized web and mobile apps, improving scan quality by 25%",
+      "Managed AWS infrastructure, adding roles to improve security and stability",
     ],
   },
   {

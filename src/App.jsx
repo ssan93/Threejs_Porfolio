@@ -16,15 +16,15 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <PreLoader />
+      {/* <PreLoader /> */}
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
         </div>
+        <Tech />
         <About />
         <Experience />
-        <Tech />
         <Works />
         {/* <Feedbacks /> */}
         <div className="relative z-0">

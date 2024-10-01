@@ -1,5 +1,6 @@
 import { styles } from "../styles";
 import { github, linkedin, twitter, mail, profilepic } from "../assets";
+import { HeroTags } from "./HeroTags";
 
 const Hero = () => {
   return (
@@ -14,18 +15,26 @@ const Hero = () => {
           </div>
 
           <div>
-            <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm <span className="text-[#915EFF]">Steven</span>
-            </h1>
-            <p className={`${styles.heroSubText} mt-2 mb-6 text-white-100`}>
-              Full Stack Software Engineer
-              <br />
-              <span className={`${styles.heroSubSubText}`}>
-                📍 Seoul, South Korea
-              </span>
-              {/* I develop user interfaces{" "}
-            and web applications */}
-            </p>
+            <div className="pb-6">
+              <h1 className={`${styles.heroHeadText} text-white`}>
+                Hi, I'm <span className="text-[#915EFF]">Steven</span>
+              </h1>
+              <div
+                className={`${styles.heroSubText} flex flex-col gap-1 mt-2 mb-3 text-white-100`}
+              >
+                Full Stack Software Engineer
+                <span className={`${styles.heroSubSubText}`}>
+                  📍 Seoul, South Korea
+                </span>
+              </div>
+              <div className={`${styles.heroDescription} max-w-[650px]`}>
+                <p>
+                  I'm a French software engineer with 4 years of experience in
+                  web development, and expertise in frameworks like React,
+                  Next.js and Node.js.
+                </p>
+              </div>
+            </div>
             <li
               className="
             flex 
@@ -34,71 +43,34 @@ const Hero = () => {
             items-center
           "
             >
-              <a
-                href="https://github.com/ssan93"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="bg-tertiary py-2 px-3 rounded-xl outline-none w-fit text-white shadow-md shadow-primary flex items-center gap-2">
-                  <img
-                    src={github}
-                    alt="github"
-                    className="w-98 h-8 object-contain"
-                  />
-                  Github
-                </button>
-              </a>
-              <a
-                href="https://linkedin.com/in/steven-san7"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="bg-tertiary py-2 px-3 rounded-xl outline-none w-fit text-white shadow-md shadow-primary flex items-center gap-2">
-                  <img
-                    src={linkedin}
-                    alt="linkedin"
-                    className="w-7 h-7 object-contain"
-                  />
-                  Linkedin
-                </button>
-              </a>
-
-              <a
-                href="https://x.com/crunchitaip"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="bg-tertiary py-2 px-3 rounded-xl outline-none w-fit text-white shadow-md shadow-primary flex items-center gap-2">
-                  <img
-                    src={twitter}
-                    alt="twitter"
-                    className="w-7 h-7 object-contain"
-                  />
-                  Twitter
-                </button>
-              </a>
-              <a
-                href="mailto:san.steven97@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="bg-tertiary py-2 px-3 rounded-xl outline-none w-fit text-white shadow-md shadow-primary flex items-center gap-2">
-                  <img
-                    src={mail}
-                    alt="mail"
-                    className="w-7 h-7 object-contain"
-                  />
-                  Mail
-                </button>
-              </a>
+              <HeroTags
+                title="Github"
+                image={github}
+                link="https://github.com/ssan93"
+              />
+              <HeroTags
+                title="Linkedin"
+                image={linkedin}
+                link="https://linkedin.com/in/steven-san7"
+              />
+              <HeroTags
+                title="Twitter"
+                image={twitter}
+                link="https://x.com/crunchitaip"
+              />
+              <HeroTags
+                title="Mail"
+                image={mail}
+                link="mailto:san.steven97@gmail.com"
+              />
             </li>
           </div>
         </div>
-        <div className="w-[250px] h-[250px] sm:block hidden">
+        <div className="w-[260px] h-[260px] sm:block hidden mb-12">
           <img
             src={profilepic}
             alt="profile-pic"
-            className="object-cover rounded-full border-2"
+            className="object-cover rounded-full border-2 border-[#915EFF]"
           />
         </div>
       </div>

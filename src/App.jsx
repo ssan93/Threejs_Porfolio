@@ -1,16 +1,13 @@
 import { BrowserRouter } from "react-router-dom";
 import { Toaster } from "sonner";
 import {
-  About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
   Works,
-  StarsCanvas,
-  PreLoader,
+  // StarsCanvas,
 } from "./components";
 
 const App = () => {
@@ -24,13 +21,13 @@ const App = () => {
           <Hero />
         </div>
         <Tech />
-        <About />
-        <Experience />
+        {/* <About /> */}
         <Works />
+        <Experience />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>

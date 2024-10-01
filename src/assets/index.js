@@ -20,7 +20,7 @@ import mongodb from "./tech/mongodb.png";
 import postgresql from "./tech/postgresql.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import nextjs from "./tech/nextjs.png";
+import nextjs from "./tech/next-logo.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import mui from "./tech/mui.png";
@@ -44,7 +44,7 @@ import wedlivefront from "./wedlivefront.png";
 import bizkiz from "./bizkiz.png";
 import lv from "./lv.jpeg";
 import loader from "./loader.gif";
-import profilepic from "./pic.jpg";
+import profilepic from "./steven-pic.png";
 
 export {
   logo,

@@ -38,8 +38,8 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "work",
@@ -80,16 +80,24 @@ const technologies = [
   //   icon: javascript,
   // },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Next JS",
+    icon: nextjs,
+    link: "https://nextjs.org/",
   },
   {
     name: "React JS",
     icon: reactjs,
+    link: "https://react.dev/",
   },
   {
-    name: "Next JS",
-    icon: nextjs,
+    name: "TypeScript",
+    icon: typescript,
+    link: "https://www.typescriptlang.org/",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+    link: "https://tailwindcss.com/",
   },
   // {
   //   name: "Material UI",
@@ -98,14 +106,12 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    link: "https://nodejs.org/",
   },
   {
     name: "PostgreSQL",
     icon: postgresql,
+    link: "https://www.postgresql.org/",
   },
   // {
   //   name: "git",

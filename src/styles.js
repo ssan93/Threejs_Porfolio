@@ -9,6 +9,8 @@ const styles = {
     "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
   heroSubSubText:
     "text-[#dfd9ff] font-medium lg:text-[20px] sm:text-[18px] xs:text-[16px] text-[14px] lg:leading-[30px]",
+  heroDescription:
+    "text-gray-400 font-medium lg:text-[16px] sm:text-[14px] xs:text-[12px] text-[10px] lg:leading-[24px]",
 
   sectionHeadText:
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",

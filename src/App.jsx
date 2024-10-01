@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-
+import { Toaster } from "sonner";
 import {
   About,
   Contact,
@@ -17,6 +17,7 @@ const App = () => {
   return (
     <BrowserRouter>
       {/* <PreLoader /> */}
+      <Toaster position="bottom-center" richColors theme="dark" />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />

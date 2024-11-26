@@ -24,7 +24,7 @@ const Hero = () => {
               >
                 Full Stack Software Engineer
                 <span className={`${styles.heroSubSubText}`}>
-                  📍 Seoul, South Korea
+                  📍 Paris, France
                 </span>
               </div>
               <div className={`${styles.heroDescription} max-w-[650px]`}>
